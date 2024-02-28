@@ -17,8 +17,24 @@
     <script src="./assets/script/script.js" defer></script>
   </head>  
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div class="container flexbox">
+        <form class="flex gap-15">
+          <input type="text" class="user-input" placeholder="Temperature"> 
+          <div class="flex center">
+            <p>&deg;C</p> 
+            <label class="switch">
+              <input type="checkbox" class="to-fahrenheit" checked>
+              <span class="slider round"></span>
+            </label>
+          <p>&deg;F</p> 
+          </div>
+          <div class="output">
+            <input type="text" class="text-output" placeholder="Result" readonly>
+          </div>
+          <input type="button" class="convert-button" value="Convert">        
+        </form>
+      </div>
+    </main>
   </body>
 </html>
