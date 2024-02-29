@@ -67,6 +67,10 @@ p {
   font-weight: 700;
 }
 
+p:nth-of-type(2) {
+  padding-left: 7px;
+}
+
 form, input {
   border-radius: 5px;
 }
@@ -81,14 +85,14 @@ form, input {
   padding: 0 10px;
 }
 
+.text-output {
+  cursor: default;
+}
+
 .convert-button {
   padding: 10px 25px;
   background-color: #089647; 
 }
-
-
-
-
 
 /* The switch - the box around the slider */
 .switch {

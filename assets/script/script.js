@@ -22,9 +22,9 @@ const convertTemperature = () => {
   
   if (!isNaN(inputValue)) {
     if (toFahrenheit.checked) {
-      result = fahrenheitToCelsius(inputValue);
+      result = celsiusToFahrenheit(inputValue);
     } else {
-      result = celsiusToFahrenheit(inputValue)
+      result = fahrenheitToCelsius(inputValue);
     }
   }
 
