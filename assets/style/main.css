@@ -75,6 +75,10 @@ form, input {
   border-radius: 5px;
 }
 
+form, .user-input, .text-output {
+  box-shadow: 0 0 1px rgb(255 255 255 / 0.4);
+}
+
 .user-input, .text-output, .convert-button {
   font-weight: 500;
 }
